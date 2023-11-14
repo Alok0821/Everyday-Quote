@@ -1,0 +1,265 @@
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: rgb(46, 43, 43);
+  border: none;
+  /* opacity: 0.445; */
+  
+}
+
+.home-headling{
+  padding: 10px;
+}
+
+.nav-container .menu-container a{
+  text-decoration: none;
+}
+.menu a{
+  color: rgb(226, 234, 229);
+}
+
+
+
+
+.Dropdown_container li{
+  color: black;
+}
+
+/* sign up styling */
+.Signup_form_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 68px;
+  border-radius: 10%;
+  /* background-color: #52769c; */
+  background-color: transparent;
+  margin-left: 30%;
+  margin-right: 27%;
+  padding-bottom: 40px;
+  margin-bottom: 19%;
+  border:none ;
+  opacity: 0.78;
+}
+.SignIn_container{
+  display: flex;
+  justify-content: center;
+  margin-top: 19px;
+  padding: 6px;
+  border-radius: 0%;
+  /* background-color: #52769c; */
+  background-color: transparent;
+  margin-left: 10%;
+  margin-right: 27%;
+  padding-bottom: 10px;
+  margin-bottom: 10%;
+  border:none ;
+  opacity: 0.78;
+  display: block;
+  
+}
+
+.LoginSubmit{
+  border-radius: 6%;
+  margin-left: 73px;
+  font-size: 36px;
+}
+
+
+.card-signin{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 55px;
+  align-items: center;
+  margin-bottom: 30%;
+  flex-wrap: wrap;
+  align-items: stretch;
+  border:none ;
+  opacity: 0.88;
+
+}
+
+.Signup_form_container input{
+  border: none;
+}
+
+
+.signU{
+  padding: 17%;
+}
+
+.Signup_form_container p a{
+  text-decoration: none;
+  color:black;
+}
+
+.Signup_btn{
+  background-color: rgb(52, 25, 25);
+  color: aquamarine;
+}
+
+
+.Signup_btn:hover{
+  /* font-weight:600; */
+  color: rgb(155, 147, 31);
+}
+
+.Signup_form_container p a:hover{
+  color: rgb(199, 132, 25);
+}
+
+/* card container css */
+
+.card_container{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 55px;
+  align-items: center;
+  margin-bottom: 50%;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.card_container{
+  flex-wrap: wrap;
+  align-items: stretch;
+  opacity: 0.713;
+  margin-top: 100px;
+}
+
+.card_1-container{
+  /* width: 37%; */
+  margin: 17px;
+  box-sizing: border-box;
+  box-shadow: 10cm;
+}
+
+
+.card_2-container{
+  margin: 17px;
+  /* width: 37%; */
+}
+
+.card_3-container{
+  margin: 17px;
+  /* width: 37%; */
+}
+
+.card_4-container{
+  margin: 14px;
+  /* width: 37%; */
+}
+
+
+.Gender{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin-left: -7.877px;
+  padding-bottom: 21px;
+  padding-top: 0px;
+  /* font-size:small; */
+}
+
+.terms_condition_container{
+  justify-content: space-evenly;
+  margin-left: -2.877px;
+
+
+}
+
+.Afterloginpage-container a{
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.Afterloginpage-container{
+  margin-left: 25px;
+  margin-right: 30px;
+}
+
+.Afterloginpage-container a:hover{
+  color:rgb(218, 137, 8);
+ 
+  
+}
+
+.card {
+  transition: all 0.3s;
+  width: 350px;
+}
+.card:hover{
+  transform:scale(1.15);
+}
+
+.Aboutus_container{
+  padding-top: 92px;
+    padding-left: 175px;
+    padding-right: 103px;
+    padding-bottom: 136px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.Contact-container{
+  padding-top: 92px;
+    padding-left: 175px;
+    padding-right: 103px;
+    padding-bottom: 136px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.Contact_table_container{
+  margin-left: 70px;
+    margin-right: 310px;
+}
+.SignIn-headling-container{
+  margin-left: 75px;
+  margin-right: 90px;
+  border: none;
+  opacity: 0.45;
+}
+
+.SignUp-headling-container{
+  margin-left: 75px;
+  margin-right: 90px;
+  border: none;
+  opacity: 0.45;
+}
+
+.terms_condition_container{
+  font-weight: 700;
+  color: black;
+
+}
+
+.Gender{
+  font-weight: 700;
+  color: black;
+}
+
+/* welcome logout button */
+
+.welcome_logout{
+  border-radius: 10%;
+  background-color: orange;
+  color:white
+  
+}
+
+.welcome_logout:hover{
+  background-color: orangered;
+  color:rgb(21, 142, 163)
+
+}

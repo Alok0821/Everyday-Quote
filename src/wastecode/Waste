@@ -1,0 +1,15 @@
+<!-- {/* <label htmlFor="">Full Name</label><br />
+
+          <input type="name" placeholder='name' id='name' value={name} onChange={(e) => { setName(e.target.value) }} autoComplete='off' onBlur={handleBlur} /><br />
+          <span className="error">{errData?.name ? errData?.name : null}</span><br /> */}
+
+
+
+
+          {/* <label htmlFor="">Email</label><br />
+          <input type="email" placeholder='abc@gamil.com' id='email' value={email} autoComplete='off' onChange={(e) => { setEmail(e.target.value) }} onBlur={handleBlur} /><br />
+          <span className="error">{errData?.email ? errData?.email : null}</span><br /> */}
+
+          <label htmlFor=""><KeyRoundedIcon />Password</label><br />
+          <input type="password" placeholder='*******' id='password' value={password} autoComplete='off' onChange={(e) => { setPassword(e.target.value) }} onBlur={handleBlur} /><br />
+          <span className="error">{errData?.password ? errData?.password : null}</span><br /> -->

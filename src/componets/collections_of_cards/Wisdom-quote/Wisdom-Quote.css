@@ -1,0 +1,17 @@
+.card_container_Wisdomquote{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 84px;
+    align-items: center;
+    margin-bottom: 50%;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+.card_1-container:hover{
+    color:rgb(235, 217, 217);
+    cursor: pointer;
+}
